@@ -1,1 +1,1 @@
-# PaletaDeCores.github.io
+Projeto Paleta de cores (Pixels-Art)

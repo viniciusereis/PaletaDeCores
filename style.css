@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/kisspng-paint-splash-ink-brush-paint-splash-5aa9266e0dea38.240328021521034862057.png);
+  background-color: rgb(178, 178, 180);
+}
+
+#title {
+  background-color: rgb(91, 219, 219);
+  text-align: center;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border: solid black 1px;
+  margin-top: 50px;
+}
+
+#color-palette {
+  text-align: center;
+}
+
+#pixel-board {
+  margin: 30px;
+  text-align: center;
+}
+
+.pixel {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border: black solid 1px;
+  max-width: 100%;
+  display: inline-block;
+  padding: 30px;
+  margin: 0%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-basis: 200px;
+}
+
+.button {
+  border-radius: 10rem;
+  font-family: 'Times New Roman';
+  font-size: 1.2em;
+  padding: 5px;
+  color: black;
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(247, 223, 223, 0), rgba(245, 0, 0, 0)),linear-gradient(101deg, rgb(118, 223, 123), rgb(207, 67, 149));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #eeeeeec5 inset;
+}
+
+.button:hover {
+  box-shadow: none;
+  color: black;
+}
